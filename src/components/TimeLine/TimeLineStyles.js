@@ -1,6 +1,12 @@
 
 import styled from 'styled-components'
 
+export const Imagen = styled.img`
+ height: 100px;
+ width: 100px;
+ margin-left: 5px;
+`;
+
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;
