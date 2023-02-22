@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, Imagen } from './TimeLineStyles';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, Imagen, AboutMe } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -45,12 +45,15 @@ const Timeline = () => {
   return (
     <Section >
       <SectionTitle>About Me</SectionTitle>
-      <SectionText style={{display:"flex"}}>
+      
+        <AboutMe>
+      <SectionText>
         With a great curiosity and wanted to learn new things, i changed of career from engineering to web and software development. One of my best decisions if I say so.
         from my beginnings with python and the backend with Django, getting to become almost an expert using javascript (typescript incoming, I'm still learning),
         to finally discover React and Nextjs and the enjoyment of building websites and webpages.
-      <Imagen src='/images/face.jpg'/>
       </SectionText>
+      <Imagen src='/images/face.jpg'/>
+      </AboutMe>
       
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -2,9 +2,18 @@
 import styled from 'styled-components'
 
 export const Imagen = styled.img`
- height: 100px;
- width: 100px;
+ height: 50%;
+ width: 250px;
  margin-left: 5px;
+ clip-path: circle();
+`;
+
+export const AboutMe = styled.div`
+  display: flex;
+  @media (max-width: 400px){
+    flex-direction: column;
+  }
+ 
 `;
 
 export const CarouselContainer = styled.ul`
