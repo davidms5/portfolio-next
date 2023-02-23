@@ -1,7 +1,7 @@
 import { SectionTitle } from '@/styles/GlobalComponents';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import Link from 'next/link';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
@@ -12,13 +12,13 @@ const Footer = () => {
       <LinkList>
       
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkTitle>Whatsapp</LinkTitle>
+          <LinkItem href="tel:+541173698281">+54 1173698281</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+          <LinkItem href="mailto:rafaelsanchez97.dm@gmail.com">
+            rafaelsanchez97.dm@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -27,12 +27,16 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
+        <Link href="https://github.com/davidms5" target='_blank'>
+        <SocialIcons >
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        </Link>
+        <Link href='https://www.linkedin.com/in/david-medina-435a50199/' target='_blank'>
+        <SocialIcons href="https://google.com">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+        </Link>
          
         </SocialContainer>
       </SocialIconsContainer>
