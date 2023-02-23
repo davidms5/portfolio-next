@@ -49,7 +49,7 @@ const Timeline = () => {
         <AboutMe>
       <SectionText>
         With a great curiosity and wanted to learn new things, i changed of career from engineering to web and software development. One of my best decisions if I say so.
-        from my beginnings with python and the backend with Django, getting to become almost an expert using javascript (typescript incoming, I'm still learning),
+        from my beginnings with python and the backend with Django, getting to become almost an expert using Javascript and Typescript,
         to finally discover React and Nextjs and the enjoyment of building websites and webpages.
       </SectionText>
       <Imagen src='/images/face.jpg'/>
