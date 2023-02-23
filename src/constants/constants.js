@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'GPT-CHAT front page',
-    description: "challenge project to understand the full extent of pure css, making a single-page application (SPA), responsive in different devices, from desktop to different smartphones",
+    description: "challenge project to understand the full extent of pure css, making a single-page application (SPA), responsive in different devices, from desktop to different smartphones, all in spanish",
       image: '/images/frontendPageTest.png',
       tags: [ 'React', 'CSS'],
     source: 'https://davidms5.github.io/GPTCHAT-webpage/',
@@ -10,35 +10,35 @@ export const projects = [
   },
   
 ];
-
-let otra_lista  = [
+ 
+export const otra_lista  = [
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
+    title: 'E-Commerce with MERN stack',
+    description:"E-Commerce that will be made using MERN stack but with Nextjs instead of React, the images of the products stored in cloudinary.",
+    image: '/images/upcoming/e-commerce.jpg',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/davidms5/GPTCHAT-webpage',
     visit: 'https://davidms5.github.io/GPTCHAT-webpage/',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
+    title: 'Note Taking app + Markdown',
+    description: "it'll be a note taking app using React and Typescript with support for markdown notes.",
+      image: '/images/upcoming/Note-Taking-App.png',
       tags: ['React', 'WebRTC'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
   },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
-  },
+  //{
+  //  title: 'Unichat',
+  //  description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //  image: '/images/4.jpg',
+  //  tags: ['React', 'ChatEngine', 'Firebase'],
+  //  source: 'https://google.com',
+  //  visit: 'https://google.com',
+  //  id: 3,
+  //},
 ]
 
 export const TimeLineData = [

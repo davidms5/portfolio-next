@@ -1,3 +1,4 @@
+import { SectionTitle } from '@/styles/GlobalComponents';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
@@ -7,7 +8,9 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
+      <SectionTitle id='contact'>contact me</SectionTitle>
       <LinkList>
+      
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>

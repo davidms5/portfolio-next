@@ -29,7 +29,12 @@ const Header = () =>  (
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
-      </li>        
+      </li>    
+      <li>
+        <Link href="#contact">
+          <NavLink>Contact Me</NavLink>
+        </Link>
+      </li>     
     </Div2>
       <Div3>
         <Link href="https://github.com/davidms5" target='_blank'>
