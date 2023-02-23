@@ -43,7 +43,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section >
+    <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       
         <AboutMe>
