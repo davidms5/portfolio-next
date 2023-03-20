@@ -20,7 +20,7 @@ const Hero = (props) => (
         </SectionText>
         
         <Button onClick={props.handleClick}>
-          <Link href='/assets/CV-David-frontend-developer-english-version.pdf' download='davidMedinaCV' target='_blank'>
+          <Link href='/assets/David Medina Full Stack English Version.pdf' download='davidMedinaCV' target='_blank'>
           Download CV
           </Link>
           </Button>
