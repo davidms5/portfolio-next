@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
     <Head>
-      <title>my Portfolio</title>
+      <title>DDevTechnologies</title>
       
     </Head>
     <Layout>

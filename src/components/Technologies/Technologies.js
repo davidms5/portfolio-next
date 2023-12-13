@@ -20,7 +20,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js, Next.js and tailwindcss/ styled components
+            React.js, Next.js angular and tailwindcss/ styled components
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +41,11 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Mobile</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            dart and flutter for apps <br/>
+             in Android & IOS
           </ListParagraph>
         </ListContainer>
       </ListItem>
