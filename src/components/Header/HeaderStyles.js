@@ -123,7 +123,7 @@ border-radius: 50px;
   }
 `
 
-export const Span = styled.span`
+export const Spans = styled.span`
   font-size: 2rem;
 
 `;

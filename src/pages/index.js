@@ -20,10 +20,10 @@ const Home = () => {
         <Hero />
         <BgAnimation />
       </Section>
-      <Projects />
       <Technologies />
-      <Timeline />
+      <Projects />
       <Acomplishments />
+      <Timeline />
     </Layout>
     </>
   );

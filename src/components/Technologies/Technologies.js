@@ -1,15 +1,15 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { ArticleIcon, List, ListContainer, ListIcon, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { techListBack, techListFront, techListMobile } from './iconTechList';
 
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a range a technologies in the web development world.
-      From Back-end To Design
+     With a wide range of technologies to create the solutions that you need
     </SectionText>
     <List>
       <ListItem>
@@ -18,10 +18,20 @@ const Technologies = () =>  (
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experiece with <br />
-            React.js, Next.js angular and tailwindcss/ styled components
-          </ListParagraph>
+          
+
+            <ArticleIcon>
+            {techListFront.map((element, i)=> {
+
+              return (
+                <ListIcon key={i} src={`/images/icon-tools/${element}`}/>
+              )
+            })
+            }
+            
+            </ArticleIcon>
+            
+          
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -30,10 +40,21 @@ const Technologies = () =>  (
         </picture>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Node, python(Django) and Databases (postgresql or mongoDB)
-          </ListParagraph>
+          
+
+            <ArticleIcon>
+            {techListBack.map((element, i)=> {
+
+              return (
+                <ListIcon key={i} src={`/images/icon-tools/${element}`}/>
+              )
+            })
+            }
+
+            </ArticleIcon>
+
+            
+
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -42,15 +63,24 @@ const Technologies = () =>  (
         </picture>
         <ListContainer>
           <ListTitle>Mobile</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            dart and flutter for apps <br/>
-             in Android & IOS
-          </ListParagraph>
+         
+
+            <ArticleIcon>
+            {techListMobile.map((element, i)=> {
+
+              return (
+                <ListIcon key={i} src={`/images/icon-tools/${element}`}/>
+              )
+            })
+            }
+
+            </ArticleIcon>
+
+            
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider colorAlt />
+   
   </Section>
 );
 

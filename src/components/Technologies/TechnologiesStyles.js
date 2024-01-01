@@ -30,7 +30,8 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  //flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin: 3rem 0;
   
@@ -113,11 +114,19 @@ export const ListItem = styled.li`
 }
 `
 
+export const ArticleIcon = styled.article`
+//display: flex;
+//flex-direction: row;
+  display: grid;
+  //flex-direction: column;
+  grid-template-columns: repeat(6, 1fr);
+`
 export const ListIcon = styled.img`
   display: block;
   width: 48px;
   height: 48px;
   margin-bottom: 10px;
+  margin-right: 10px;
   
   @media ${props => props.theme.breakpoints.md}{
     width: 40px;
