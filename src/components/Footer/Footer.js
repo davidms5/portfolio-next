@@ -4,9 +4,12 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Link from 'next/link';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import ContactForm from './contactForm';
 
 const Footer = () => {
   return (
+    <>
+    
     <FooterWrapper>
       <SectionTitle id='contact'>contact me</SectionTitle>
       <LinkList>
@@ -41,6 +44,7 @@ const Footer = () => {
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
+    </>
   );
 };
 
