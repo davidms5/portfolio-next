@@ -10,6 +10,7 @@ const Footer = () => {
   return (
     <>
     
+    {/*<ContactForm/>*/ }
     <FooterWrapper>
       <SectionTitle id='contact'>contact me</SectionTitle>
       <LinkList>

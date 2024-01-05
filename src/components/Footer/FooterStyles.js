@@ -157,3 +157,32 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+
+export const ContactMeContainer = styled.div`
+    width: 80%;
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Align items horizontally at the center */
+  	 /* Align items vertically at the center */
+  
+	//border: 1px solid white;
+	border-radius: 10px;
+	box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+ 	text-align: center;
+`
+
+export const ButtonForm = styled.button`
+  background-color: #1565c0; /* A slightly darker blue for the button */
+  width: 40%;
+  color: #ffffff; /* White text for the button */
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+
+  &:hover {
+    background-color: #0d47a1; /* Darker blue on hover */
+  }
+`
