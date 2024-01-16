@@ -10,9 +10,9 @@ const Footer = () => {
   return (
     <>
     
-    {/*<ContactForm/>*/ }
+    <ContactForm/>
     <FooterWrapper>
-      <SectionTitle id='contact'>contact me</SectionTitle>
+      {/*<SectionTitle id='contact'>contact me</SectionTitle>*/}
       <LinkList>
       
         <LinkColumn>

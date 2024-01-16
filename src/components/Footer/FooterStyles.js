@@ -181,8 +181,33 @@ export const ButtonForm = styled.button`
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+  margin-bottom: 5px;
 
   &:hover {
     background-color: #0d47a1; /* Darker blue on hover */
   }
+`
+
+export const DivSuccess = styled.div`
+.success-message {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 15px; /* Padding around the message */
+    margin-top: 10px; /* Margin from the top */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text */
+    font-size: 16px; /* Font size */
+    position: relative; /* Position relative for animation */
+    animation: fadeOut 3s ease-out; /* Fade out animation */
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
 `
